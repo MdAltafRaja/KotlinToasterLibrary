@@ -6,7 +6,7 @@ import android.widget.Toast
 public class ToastMessage {
     fun simpleToast(context: Context,msg:String){
 
-        Toast.makeText(context,msg,Toast.LENGTH_SHORT).show()
+        Toast.makeText(context,msg+"Coming from",Toast.LENGTH_SHORT).show()
 
     }
 }
